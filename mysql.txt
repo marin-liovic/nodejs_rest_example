@@ -1,0 +1,8 @@
+CREATE DATABASE `test_api` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+CREATE TABLE `calendars` (
+  `id` varchar(45) NOT NULL,
+  `subject` varchar(256) DEFAULT NULL,
+  `description` varchar(256) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
